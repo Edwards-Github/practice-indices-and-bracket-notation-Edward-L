@@ -10,11 +10,9 @@ let movies = [
 ];
 
 // Task 2: Access and log all the elements in the array using bracket notation with numbers
-for (let i = 0; i < movies.length; i++) {
-  for (let j = 0; j < movies[i].length; j++) {
-    console.log(`${movies[i][j]}`);
-  }
-}
+console.log(movies[0][0], movies[0][1], movies[0][2]);
+console.log(movies[1][0], movies[1][1], movies[1][2]);
+console.log(movies[2][0], movies[2][1], movies[2][2]);
 
 // Task 3: Access and log all the elements in the array using bracket notation with variables as indices. Use the variables row and item.
 for (let row = 0; row < movies.length; row++) {
